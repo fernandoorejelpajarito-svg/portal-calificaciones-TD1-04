@@ -458,10 +458,8 @@ function renderOverview(){
 }
 
 function examenSubitems(p, pd){
-  // Parcial with split Teoría/Problemas has 2 examenLabels; others have 1
-  if (p.examenLabels.length > 1){
-    return p.examenLabels.map((label, i) => ({ nombre: label, valor: pd.examenDetalle[i] }));
-  }
+  // No devuelve nada
+
   return null;
 }
 
